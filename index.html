@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: blue;
-  text-align: center;
-}
-</style>
-</head>
 <body>
 <h1>Hello I am KrazyWoman<h1>
-  </body>
-  </html>
+  <table border='1'>
+    <tr>
+      <td>Name:</td>
+      <td><input type='text"></td>
+    </tr>
+    <tr>   
+        <td>Relationship status:</td>
+        <td><input type="radio" id="taken" name="rs" value="taken">
+            <label for="taken">Taken</label><br>
+            <input type="radio" id="ugly" name="rs" value="ugly">
+            <label for="ugly">Ugly</label><br>
+        </td>
+    </tr>
+    <tr>
+        <td>Favourite fruit:</td>
+        <td><input type="checkbox" id="brinjal" name="brinjal"
+             checked>
+      <label for="brinjal">Brinjal</label>
+            <input type="checkbox" id="oyster" name="oyster"
+             checked>
+        <label for="oyster">Oyster</label></td>
+        </tr>
+     <tr>
+        <td rowspan='2'><input type='submit' value='Submit'></td>
+        </tr>
+        </table>
+</body>
+</html>
