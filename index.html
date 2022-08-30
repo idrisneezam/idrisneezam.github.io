@@ -5,7 +5,13 @@
 body {
   background-color: lightblue;
 }
-
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 h1 {
   color: blue;
   text-align: center;
@@ -13,6 +19,9 @@ h1 {
 </style>
 </head>
 <body>
+  <video autoplay muted loop id="myVideo">
+  <source src="video.mp4" type="video/mp4">
+</video>
 <h1>Hello I am KrazyWoman<h1>
   <table border='1'>
     <tr>
